@@ -1309,6 +1309,99 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@sentry/browser@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/browser/download/@sentry/browser-5.24.2.tgz?cache=0&sync_timestamp=1601300114254&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Fbrowser%2Fdownload%2F%40sentry%2Fbrowser-5.24.2.tgz#e2c2786dbf07699ee12f12babf0138d633abc494"
+  integrity sha1-4sJ4bb8HaZ7hLxK6vwE41jOrxJQ=
+  dependencies:
+    "@sentry/core" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/cli@^1.58.0":
+  version "1.58.0"
+  resolved "https://registry.npm.taobao.org/@sentry/cli/download/@sentry/cli-1.58.0.tgz#b1609f10e71539951499866502b13bf3a270fe79"
+  integrity sha1-sWCfEOcVOZUUmYZlArE786Jw/nk=
+  dependencies:
+    https-proxy-agent "^5.0.0"
+    mkdirp "^0.5.5"
+    node-fetch "^2.6.0"
+    progress "^2.0.3"
+    proxy-from-env "^1.1.0"
+
+"@sentry/core@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/core/download/@sentry/core-5.24.2.tgz?cache=0&sync_timestamp=1601300113441&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Fcore%2Fdownload%2F%40sentry%2Fcore-5.24.2.tgz#1724652855c0887a690c3fc6acd2519d4072b511"
+  integrity sha1-FyRlKFXAiHppDD/GrNJRnUBytRE=
+  dependencies:
+    "@sentry/hub" "5.24.2"
+    "@sentry/minimal" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/hub@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/hub/download/@sentry/hub-5.24.2.tgz?cache=0&sync_timestamp=1601300113061&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Fhub%2Fdownload%2F%40sentry%2Fhub-5.24.2.tgz#64a02fd487599945e488ae23aba4ce4df44ee79e"
+  integrity sha1-ZKAv1IdZmUXkiK4jq6TOTfRO554=
+  dependencies:
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/minimal@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/minimal/download/@sentry/minimal-5.24.2.tgz#14e8b136842398a32987459f0574359b6dc57a1f"
+  integrity sha1-FOixNoQjmKMph0WfBXQ1m23Feh8=
+  dependencies:
+    "@sentry/hub" "5.24.2"
+    "@sentry/types" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/react@^5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/react/download/@sentry/react-5.24.2.tgz#781ae4274ad5c3148b8f80b613c1b0a73f763e47"
+  integrity sha1-eBrkJ0rVwxSLj4C2E8Gwpz92Pkc=
+  dependencies:
+    "@sentry/browser" "5.24.2"
+    "@sentry/minimal" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    hoist-non-react-statics "^3.3.2"
+    tslib "^1.9.3"
+
+"@sentry/tracing@^5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/tracing/download/@sentry/tracing-5.24.2.tgz#a36b4f9bf699c5e07e99a148360091c8e727c51f"
+  integrity sha1-o2tPm/aZxeB+maFINgCRyOcnxR8=
+  dependencies:
+    "@sentry/hub" "5.24.2"
+    "@sentry/minimal" "5.24.2"
+    "@sentry/types" "5.24.2"
+    "@sentry/utils" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/types@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/types/download/@sentry/types-5.24.2.tgz?cache=0&sync_timestamp=1601300112453&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Ftypes%2Fdownload%2F%40sentry%2Ftypes-5.24.2.tgz#e2c25d1e75d8dbec5dbbd9a309a321425b61c2ca"
+  integrity sha1-4sJdHnXY2+xdu9mjCaMhQlthwso=
+
+"@sentry/utils@5.24.2":
+  version "5.24.2"
+  resolved "https://registry.npm.taobao.org/@sentry/utils/download/@sentry/utils-5.24.2.tgz?cache=0&sync_timestamp=1601300114030&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Futils%2Fdownload%2F%40sentry%2Futils-5.24.2.tgz#90b7dff939bbbf4bb8edcac6aac2d04a0552af80"
+  integrity sha1-kLff+Tm7v0u47crGqsLQSgVSr4A=
+  dependencies:
+    "@sentry/types" "5.24.2"
+    tslib "^1.9.3"
+
+"@sentry/webpack-plugin@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.npm.taobao.org/@sentry/webpack-plugin/download/@sentry/webpack-plugin-1.13.0.tgz?cache=0&sync_timestamp=1600857108960&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sentry%2Fwebpack-plugin%2Fdownload%2F%40sentry%2Fwebpack-plugin-1.13.0.tgz#98c1b75cf0cfdb0d2b39240ecc4ffe9e6c28dbd4"
+  integrity sha1-mMG3XPDP2w0rOSQOzE/+nmwo29Q=
+  dependencies:
+    "@sentry/cli" "^1.58.0"
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npm.taobao.org/@sheerun/mutationobserver-shim/download/@sheerun/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
@@ -1918,6 +2011,13 @@ adjust-sourcemap-loader@2.0.0:
     loader-utils "1.2.3"
     object-path "0.11.4"
     regex-parser "2.2.10"
+
+agent-base@6:
+  version "6.0.1"
+  resolved "https://registry.npm.taobao.org/agent-base/download/agent-base-6.0.1.tgz?cache=0&sync_timestamp=1593732673731&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fagent-base%2Fdownload%2Fagent-base-6.0.1.tgz#808007e4e5867decb0ab6ab2f928fbdb5a596db4"
+  integrity sha1-gIAH5OWGfeywq2qy+Sj721pZbbQ=
+  dependencies:
+    debug "4"
 
 aggregate-error@^3.0.0:
   version "3.0.1"
@@ -3561,6 +3661,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+debug@4:
+  version "4.2.0"
+  resolved "https://registry.npm.taobao.org/debug/download/debug-4.2.0.tgz?cache=0&sync_timestamp=1600502873540&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
+  integrity sha1-fxUPk5IOlMWPVXTC/QGjEQ7/5/E=
+  dependencies:
+    ms "2.1.2"
+
 debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -4747,11 +4854,6 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fsevents@2.1.2, fsevents@~2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npm.taobao.org/fsevents/download/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
-  integrity sha1-TAofs0vGjlQ7S4Kp7Dkr+9qECAU=
-
 fsevents@^1.2.7:
   version "1.2.12"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.12.tgz#db7e0d8ec3b0b45724fd4d83d43554a8f1f0de5c"
@@ -4759,6 +4861,11 @@ fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
+
+fsevents@~2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/fsevents/download/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
+  integrity sha1-TAofs0vGjlQ7S4Kp7Dkr+9qECAU=
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -5024,6 +5131,13 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
+
 hosted-git-info@^2.1.4:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
@@ -5182,6 +5296,14 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+
+https-proxy-agent@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npm.taobao.org/https-proxy-agent/download/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
+  integrity sha1-4qkFQqu2inYuCghQ9sntrf2FBrI=
+  dependencies:
+    agent-base "6"
+    debug "4"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
@@ -6869,7 +6991,7 @@ ms@2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-ms@^2.1.1:
+ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
@@ -6946,6 +7068,11 @@ no-case@^3.0.3:
   dependencies:
     lower-case "^2.0.1"
     tslib "^1.10.0"
+
+node-fetch@^2.6.0:
+  version "2.6.1"
+  resolved "https://registry.npm.taobao.org/node-fetch/download/node-fetch-2.6.1.tgz?cache=0&sync_timestamp=1599309120224&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-fetch%2Fdownload%2Fnode-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI=
 
 node-forge@0.9.0:
   version "0.9.0"
@@ -8367,7 +8494,7 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-progress@^2.0.0:
+progress@^2.0.0, progress@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
@@ -8408,6 +8535,11 @@ proxy-addr@~2.0.5:
   dependencies:
     forwarded "~0.1.2"
     ipaddr.js "1.9.1"
+
+proxy-from-env@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/proxy-from-env/download/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
+  integrity sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I=
 
 prr@~1.0.1:
   version "1.0.1"
@@ -8603,70 +8735,10 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-6.0.7.tgz?cache=0&sync_timestamp=1600296997401&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-error-overlay%2Fdownload%2Freact-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha1-Hc+0WatnHVP2YKmRUTyy8KBVMQg=
 
-react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
+react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
-  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-scripts@3.4.3:
-  version "3.4.3"
-  resolved "https://registry.npm.taobao.org/react-scripts/download/react-scripts-3.4.3.tgz?cache=0&sync_timestamp=1600298780128&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-scripts%2Fdownload%2Freact-scripts-3.4.3.tgz#21de5eb93de41ee92cd0b85b0e1298d0bb2e6c51"
-  integrity sha1-Id5euT3kHuks0LhbDhKY0LsubFE=
-  dependencies:
-    "@babel/core" "7.9.0"
-    "@svgr/webpack" "4.3.3"
-    "@typescript-eslint/eslint-plugin" "^2.10.0"
-    "@typescript-eslint/parser" "^2.10.0"
-    babel-eslint "10.1.0"
-    babel-jest "^24.9.0"
-    babel-loader "8.1.0"
-    babel-plugin-named-asset-import "^0.3.6"
-    babel-preset-react-app "^9.1.2"
-    camelcase "^5.3.1"
-    case-sensitive-paths-webpack-plugin "2.3.0"
-    css-loader "3.4.2"
-    dotenv "8.2.0"
-    dotenv-expand "5.1.0"
-    eslint "^6.6.0"
-    eslint-config-react-app "^5.2.1"
-    eslint-loader "3.0.3"
-    eslint-plugin-flowtype "4.6.0"
-    eslint-plugin-import "2.20.1"
-    eslint-plugin-jsx-a11y "6.2.3"
-    eslint-plugin-react "7.19.0"
-    eslint-plugin-react-hooks "^1.6.1"
-    file-loader "4.3.0"
-    fs-extra "^8.1.0"
-    html-webpack-plugin "4.0.0-beta.11"
-    identity-obj-proxy "3.0.0"
-    jest "24.9.0"
-    jest-environment-jsdom-fourteen "1.0.1"
-    jest-resolve "24.9.0"
-    jest-watch-typeahead "0.4.2"
-    mini-css-extract-plugin "0.9.0"
-    optimize-css-assets-webpack-plugin "5.0.3"
-    pnp-webpack-plugin "1.6.4"
-    postcss-flexbugs-fixes "4.1.0"
-    postcss-loader "3.0.0"
-    postcss-normalize "8.0.1"
-    postcss-preset-env "6.7.0"
-    postcss-safe-parser "4.0.1"
-    react-app-polyfill "^1.0.6"
-    react-dev-utils "^10.2.1"
-    resolve "1.15.0"
-    resolve-url-loader "3.1.1"
-    sass-loader "8.0.2"
-    semver "6.3.0"
-    style-loader "0.23.1"
-    terser-webpack-plugin "2.3.8"
-    ts-pnp "1.1.6"
-    url-loader "2.3.0"
-    webpack "4.42.0"
-    webpack-dev-server "3.11.0"
-    webpack-manifest-plugin "2.2.0"
-    workbox-webpack-plugin "4.3.1"
-  optionalDependencies:
-    fsevents "2.1.2"
+  resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1600731936700&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
 react@^16.13.1:
   version "16.13.1"
@@ -10072,6 +10144,11 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
+
+tslib@^1.9.3:
+  version "1.13.0"
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz?cache=0&sync_timestamp=1596751904317&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
+  integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
 
 tsutils@^3.17.1:
   version "3.17.1"
