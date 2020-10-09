@@ -12,6 +12,7 @@ Sentry.init({
   integrations: [
     new Integrations.BrowserTracing(),
   ],
+  release: "sentry_demo@0.1.0",
   tracesSampleRate: 1.0,
 });
 Sentry.setContext("character", {

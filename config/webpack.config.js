@@ -24,8 +24,9 @@ const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpackPlugin');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
-
 const postcssNormalize = require('postcss-normalize');
+
+const SentryWebpackPlugin = require("@sentry/webpack-plugin");
 
 const appPackageJson = require(paths.appPackageJson);
 
@@ -508,6 +509,19 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
+      new SentryWebpackPlugin({
+        // sentry-cli configuration
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+        org: "gugu",
+        project: "sentry_demo",
+        urlPrefix: '~/',
+        release: 'sentry_demo@' + process.env.npm_package_version,
+        // webpack specific configuration
+        include: "./build",
+        ignore: ["node_modules", "webpack.config.js"],
+        finalize: true,
+        debug: true,
+      }),
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
